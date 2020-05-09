@@ -1,0 +1,3 @@
+[submodule "patch_minecraft_lwjgl_config"]
+	path = patch_minecraft_lwjgl_config
+	url = git@github.com:EMue/patch_minecraft_lwjgl_config.git
