@@ -1,0 +1,7 @@
+LWJGL_URL_PREFIX=\
+https://github.com/EMue/lwjgl3-release/raw/3.2.4-preview-ppc64le_64kpages
+LWJGL_LINUX_ARCH=ppc64le
+LWJGL_BUILD_TYPE=nightly
+lwjgl_build_version() {
+	echo "$1" | cut -d " " -f 2
+}
